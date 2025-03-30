@@ -81,7 +81,6 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
             onMouseLeave={handleMouseLeave}
             className="border-hsla relative flex w-fit cursor-pointer items-center gap-1 overflow-hidden rounded-full bg-black px-5 py-2 text-xs uppercase text-white/20"
           >
-            {/* Radial gradient hover effect */}
             <div
               className="pointer-events-none absolute -inset-px opacity-0 transition duration-300"
               style={{
@@ -103,12 +102,10 @@ const Features = () => (
     <div className="container mx-auto px-3 md:px-10">
       <div className="px-5 py-32">
         <p className="font-circular-web text-lg text-blue-50">
-          Into the Metagame Layer
+          Into the Air Football
         </p>
         <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
-          Immerse yourself in a rich and ever-expanding universe where a vibrant
-          array of products converge into an interconnected overlay experience
-          on your world.
+        The Cup is based on points, not wins, so high-scoring teams have a better chance at winning, and the team with the highest point total after all three games have been played wins the Cup. Winning the Cup with any team unlocks the Quidditch World Cup.
         </p>
       </div>
 
@@ -120,7 +117,7 @@ const Features = () => (
               radia<b>n</b>t
             </>
           }
-          description="A cross-platform metagame app, turning your activities across Web2 and Web3 games into a rewarding adventure."
+          description="A cross-platform website, used for streaming having ai commentry"
           isComingSoon
         />
       </BentoTilt>

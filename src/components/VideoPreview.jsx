@@ -77,6 +77,7 @@ export const VideoPreview = ({ children }) => {
       >
         {children}
       </div>
+      
     </section>
   );
 };

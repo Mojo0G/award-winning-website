@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import NavBar from "./components/Navbar";
 import Features from "./components/Features";
 import Story from "./components/Story";
-import Contact from "./components/Contact";
+import Comentary from "./components/Commentary";
 import Footer from "./components/Footer";
 
 function App() {
@@ -14,7 +14,8 @@ function App() {
       <About />
       <Features />
       <Story />
-      <Contact />
+      <Comentary />
+      
       <Footer />
     </main>
   );
